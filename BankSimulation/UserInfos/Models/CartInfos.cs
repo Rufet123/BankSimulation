@@ -112,7 +112,7 @@ namespace UserInfos.Models
                 for (int j = 0; j < sum.Length; j++)
                 {
                     this.CartNumbers += sum[j];
-                    if ((j + 1) % 4 == 0)
+                    if ((j + 1) % 4 == 0&&j!=15)
                     {
                         this.CartNumbers += " ";
                     }

@@ -13,11 +13,13 @@ namespace UserInfos.Models
 		}
 		public static void UpdatePin(string name, string surename, int pin,int cvv)
 		{
+            Boolean update = false;
             for (int i = 0; i < Arr.Length; i++)
             {
+
                 if (Arr[i].Name.ToLower() == name.ToLower() && Arr[i].SureName.ToLower() == surename.ToLower() && Arr[i].Cvv==cvv)
                 {
-                    if (pin > 1000 && pin < 10000)
+                    if (pin > 100 && pin < 1000)
                     {
                         Arr[i].Pin = pin;
                         Console.WriteLine("user pin succesfully update:");
@@ -26,27 +28,30 @@ namespace UserInfos.Models
                     {
                         Console.WriteLine("pin is not valid");
                     }
+                    update = true;
                 }
-                else
-                {
-                    Console.WriteLine("this user is not valid");
-                }
-
+            }
+            if (update==false)
+            {
+                Console.WriteLine("these informations do not belong to any user");
             }
         }
         public static void DeleteUser(string name, string surename,int cvv)
         {
+            Boolean removed = false;
             for (int i = 0; i < Arr.Length; i++)
             {
                 if (Arr[i].Name.ToLower() == name.ToLower() && Arr[i].SureName.ToLower() == surename.ToLower() && Arr[i].Cvv==cvv)
                 {
                     Arr = Arr.Where(val => val != Arr[i]).ToArray();
                     Console.WriteLine("User is succesfully removed");
+                    removed = true;
                 }
-                else
-                {
-                    Console.WriteLine("this user is not valid");
-                }
+                
+            }
+            if (removed==false)
+            {
+                Console.WriteLine("these informations do not belong to any user");
             }
         }
         public static void AddUser(User user)
@@ -139,6 +144,7 @@ namespace UserInfos.Models
         }
         public static void UpdatePhone(string phone,string name,string surename,int pin)
         {
+            Boolean update = false;
             for (int i = 0; i < Arr.Length; i++)
             {
                 if (Arr[i].Name.ToLower() == name.ToLower() & Arr[i].SureName.ToLower() == surename.ToLower() & Arr[i].Pin==pin)
@@ -153,7 +159,12 @@ namespace UserInfos.Models
                     {
                         Console.WriteLine("phone number is not valid phone number example +994XXXXXXXXX");
                     }
+                    update = true;
                 }
+            }
+            if (update==false)
+            {
+                Console.WriteLine("these informations do not belong to any user");
             }
         }
     }
