@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/Mac/C#/Bank_Simulation/BankSimulation/BankSimulation/BankSimulation.csproj": {}
+  },
+  "projects": {
+    "/Volumes/Mac/C#/Bank_Simulation/BankSimulation/BankSimulation/BankSimulation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Mac/C#/Bank_Simulation/BankSimulation/BankSimulation/BankSimulation.csproj",
+        "projectName": "BankSimulation",
+        "projectPath": "/Volumes/Mac/C#/Bank_Simulation/BankSimulation/BankSimulation/BankSimulation.csproj",
+        "packagesPath": "/Users/rufat/.nuget/packages/",
+        "outputPath": "/Volumes/Mac/C#/Bank_Simulation/BankSimulation/BankSimulation/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rufat/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Volumes/Mac/C#/Bank_Simulation/BankSimulation/UserInfos/UserInfos.csproj": {
+                "projectPath": "/Volumes/Mac/C#/Bank_Simulation/BankSimulation/UserInfos/UserInfos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[3.1.32, 3.1.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/Mac/C#/Bank_Simulation/BankSimulation/UserInfos/UserInfos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Mac/C#/Bank_Simulation/BankSimulation/UserInfos/UserInfos.csproj",
+        "projectName": "UserInfos",
+        "projectPath": "/Volumes/Mac/C#/Bank_Simulation/BankSimulation/UserInfos/UserInfos.csproj",
+        "packagesPath": "/Users/rufat/.nuget/packages/",
+        "outputPath": "/Volumes/Mac/C#/Bank_Simulation/BankSimulation/UserInfos/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rufat/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BankSimulation/1.0.0": {
+        "dependencies": {
+          "UserInfos": "1.0.0"
+        },
+        "runtime": {
+          "BankSimulation.dll": {}
+        }
+      },
+      "UserInfos/1.0.0": {
+        "runtime": {
+          "UserInfos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BankSimulation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UserInfos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

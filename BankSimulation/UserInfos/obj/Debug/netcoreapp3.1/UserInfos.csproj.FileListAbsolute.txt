@@ -1,0 +1,10 @@
+/Volumes/Mac/C#/Bank_Simulation/BankSimulation/UserInfos/bin/Debug/netcoreapp3.1/UserInfos.deps.json
+/Volumes/Mac/C#/Bank_Simulation/BankSimulation/UserInfos/bin/Debug/netcoreapp3.1/UserInfos.dll
+/Volumes/Mac/C#/Bank_Simulation/BankSimulation/UserInfos/bin/Debug/netcoreapp3.1/UserInfos.pdb
+/Volumes/Mac/C#/Bank_Simulation/BankSimulation/UserInfos/obj/Debug/netcoreapp3.1/UserInfos.csproj.AssemblyReference.cache
+/Volumes/Mac/C#/Bank_Simulation/BankSimulation/UserInfos/obj/Debug/netcoreapp3.1/UserInfos.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Mac/C#/Bank_Simulation/BankSimulation/UserInfos/obj/Debug/netcoreapp3.1/UserInfos.AssemblyInfoInputs.cache
+/Volumes/Mac/C#/Bank_Simulation/BankSimulation/UserInfos/obj/Debug/netcoreapp3.1/UserInfos.AssemblyInfo.cs
+/Volumes/Mac/C#/Bank_Simulation/BankSimulation/UserInfos/obj/Debug/netcoreapp3.1/UserInfos.csproj.CoreCompileInputs.cache
+/Volumes/Mac/C#/Bank_Simulation/BankSimulation/UserInfos/obj/Debug/netcoreapp3.1/UserInfos.dll
+/Volumes/Mac/C#/Bank_Simulation/BankSimulation/UserInfos/obj/Debug/netcoreapp3.1/UserInfos.pdb

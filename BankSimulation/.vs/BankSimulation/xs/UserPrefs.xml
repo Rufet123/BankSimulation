@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{9F81BEB5-E53B-488F-847D-333E23E8C4B4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UserInfos/Models/Infos.cs">
+    <Files>
+      <File FileName="BankSimulation/Program.cs" Line="53" Column="62" />
+      <File FileName="UserInfos/Models/User.cs" Line="11" Column="3" />
+      <File FileName="UserInfos/Models/Data.cs" Line="91" Column="98" />
+      <File FileName="UserInfos/Models/CartInfos.cs" Line="139" Column="42" />
+      <File FileName="UserInfos/Models/Infos.cs" Line="15" Column="121" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BankSimulation" expanded="True">
+            <Node name="BankSimulation" expanded="True" />
+            <Node name="UserInfos" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+                <Node name="Infos.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BankSimulation PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
